@@ -1,0 +1,12 @@
+fastapi==0.111.0
+pydantic==2.7.2
+uvicorn==0.30.1
+pytest==7.4.2
+pytest-mock
+pytest-asyncio
+psycopg2-binary
+redis
+sqlalchemy
+sqlalchemy-utils
+alembic
+pika[framing]==1.3.2

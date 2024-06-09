@@ -1,5 +1,14 @@
 I'm using FastAPI, postgresql, rabbitmq and redis
 
+Please create .env file fith content
+DATABASE_URL=postgresql://postgres:password@db:5432/trumo
+RABBITMQ_QUEUE=withdrawals
+RABBITMQ_HOST=rabbitmq
+RABBITMQ_PORT=5672
+RABBITMQ_USERNAME=guest
+RABBITMQ_PASSWORD=guest
+REDIS_URL=redis://redis:6379
+
 to run rever,  please run "docker compose up --build"
 to run test please go to "fastapi_app" container and run "pytest -v tests"
 first time you access system, database will be created if not exists already
